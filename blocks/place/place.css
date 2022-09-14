@@ -1,0 +1,11 @@
+.place {
+
+  display: grid;
+  grid-template-columns: fit-content(460px) 3fr;
+  /* grid-template-rows: 1fr 460px; */
+  grid-template-areas:
+  "title website"
+  "photo text";
+  row-gap: 48px;
+  column-gap: 40px;
+}

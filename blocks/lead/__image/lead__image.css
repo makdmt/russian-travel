@@ -1,0 +1,12 @@
+.lead__image {
+width: 984px;
+height: 615px;
+margin: 64px 148px 8px;
+background-image: url(../../../images/title-img__girl-in-coupe.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+}
