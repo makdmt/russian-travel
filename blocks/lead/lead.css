@@ -1,7 +1,10 @@
 .lead {
+  width: 100%;
+  grid-area: lead;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  outline: 1px solid yellow;
 
 }

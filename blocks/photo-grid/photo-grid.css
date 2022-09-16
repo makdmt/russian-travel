@@ -1,4 +1,5 @@
 .photo-grid {
+  grid-area: photogrid;
   width: 100%;
   max-width: 1184px;
   display: grid;

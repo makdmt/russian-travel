@@ -1,5 +1,6 @@
-/* .places {
-  display: grid;
+ .places {
+  grid-area: places;
+  /* display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
-} */
+  grid-template-rows: repeat(auto-fit, minmax(min-content, max-content)); */
+}
