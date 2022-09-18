@@ -1,9 +1,10 @@
 .lead__route {
   width: 95%;
-
   object-fit: contain;
-  position: absolute;
-  top: 90px;
   z-index: 1;
+
+  /* position: absolute;
+  top: 90px; */
+
   /* padding-top: 90px; */
 }

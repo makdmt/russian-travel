@@ -1,15 +1,29 @@
 .lead__image {
-position: relative;
 width: 100%;
-max-width: 984px;
-padding-bottom: 48%;
-margin: 64px 48px 8px;
-background-image: url(../../../images/title-img__girl-in-coupe.jpg);
+margin: 64px 0 8px;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+justify-items: center;
+/* max-width: 984px; */
+/* height: 200%; */
+/* padding-bottom: 48%; */
+
+/* display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr; */
+/* background-image: url(../../../images/title-img__girl-in-coupe.jpg);
 background-position: center;
 background-size: cover;
-background-repeat: no-repeat;
+background-repeat: no-repeat; */
 /* display: flex;
 justify-content: center;
 align-items: flex-start; */
 outline: 1px solid white;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .lead__image {
+    width: 100%;
+  }
 }
