@@ -3,27 +3,14 @@ width: 100%;
 margin: 64px 0 8px;
 display: grid;
 grid-template-columns: 1fr;
-grid-template-rows: 1fr;
+grid-template-rows: 1.15fr 0.85fr;
 justify-items: center;
-/* max-width: 984px; */
-/* height: 200%; */
-/* padding-bottom: 48%; */
-
-/* display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: 1fr; */
-/* background-image: url(../../../images/title-img__girl-in-coupe.jpg);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat; */
-/* display: flex;
-justify-content: center;
-align-items: flex-start; */
-outline: 1px solid white;
+align-items: end;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .lead__image {
     width: 100%;
+    margin: 40px 0 8px;
   }
 }

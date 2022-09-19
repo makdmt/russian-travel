@@ -1,6 +1,5 @@
 .lead__image_position_front {
   width: 95%;
-  padding-top: 90px;
   grid-column: 1/2;
   grid-row: 1/2;
   z-index: 1;
