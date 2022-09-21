@@ -1,6 +1,0 @@
-.lead__image_position_front {
-  width: 95%;
-  grid-column: 1/2;
-  grid-row: 1/2;
-  z-index: 1;
-}

@@ -4,17 +4,21 @@
   max-width: 1184px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  /* grid-template-rows: repeat(3, 1fr); */
   gap: 16px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .photo-grid {
     gap: 14px;
 
   }
 }
 
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    gap: 12px;
 
+  }
+}
 
 
