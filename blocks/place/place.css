@@ -11,9 +11,14 @@
   padding-bottom: 80px;
 }
 
+.place:last-of-type {
+  padding-bottom: 0;
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
     grid-template-columns: fit-content(440px) 1fr;
+
 
   }
 }
@@ -22,6 +27,7 @@
   .place {
     grid-template-columns: fit-content(340px) 1fr;
     padding-bottom: 73px;
+    column-gap: 32px;
 
   }
 }
@@ -37,6 +43,7 @@
   "photo photo photo"
   ". text .";
   padding-bottom: 50px;
+  column-gap: 28px;
 
   }
 }
