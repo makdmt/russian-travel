@@ -21,6 +21,12 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .content {
     grid-template-columns: 48px 0px 1fr 0px 48px;
+    grid-template-areas:
+    "lead lead lead lead lead"
+    ". . intro . ."
+    ". photogrid photogrid photogrid ."
+    ". . places . ."
+    "cover cover cover cover cover";
   }
 }
 
@@ -31,9 +37,9 @@
     grid-template-areas:
     "lead lead lead lead lead"
     ". . intro . ."
-    ". photogrid photogrid photogrid."
+    ". photogrid photogrid photogrid ."
     ". . places . ."
-    ". cover cover cover .";
+    "cover cover cover cover cover";
   }
 }
 
