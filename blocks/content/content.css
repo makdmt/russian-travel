@@ -22,7 +22,7 @@
   .content {
     grid-template-columns: 48px 0px 1fr 0px 48px;
     grid-template-areas:
-    "lead lead lead lead lead"
+    ". lead lead lead ."
     ". . intro . ."
     ". photogrid photogrid photogrid ."
     ". . places . ."
